@@ -9,7 +9,7 @@
                   <li><a><i class="fa fa-edit"></i> Utilisateurs <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="form.html">Ajouter un utilisateur</a></li>
-                      <li><a href="form_advanced.html">Liste des utilisateurs</a></li>
+                      <li><a href="<?php echo site_url('user/') ?>">Liste des utilisateurs</a></li>
                       <li><a href="form_advanced.html">Gestion des privilèges</a></li>
                       
                     </ul>
